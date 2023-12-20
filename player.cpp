@@ -16,8 +16,6 @@ class Player{
 		string getName() const;
 		int getScore();
 		void setScore(int a);
-		bool getTurnStart() const;
-		void setTurnStart(bool value);
 };
 
 void Player::enterName(){
@@ -35,14 +33,6 @@ int Player::getScore(){
 
 void Player::setScore(int a){
 	score +=a;
-}
-
-bool Player::getTurnStart() const{
-	return turnStart;
-}
-
-void Player::setTurnStart(bool value){
-	turnStart = value;
 }
 
 #endif //PLAYER_H
