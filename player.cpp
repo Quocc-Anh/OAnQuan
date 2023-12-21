@@ -10,7 +10,6 @@ class Player{
 	private:
 		string name;
 		int score = 0;
-		bool turnStart = false;
 	public:
 		void enterName();
 		string getName() const;
